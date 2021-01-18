@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2em;
+}
+a, .mapfre {
+    color:#d81e05;
+}
+a:hover {
+    color:green;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    color:#d81e05;
+    line-height: 1.2em;
+}
+
+/*Header and Footer*/
+.background-red {
+    height: 50px;
+    background-color: #d81e05;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.logo {
+    width: 175px;
+}
+/*Section 1*/
+
+.car {
+    height: 250px;
+width: 100%;
+
+background-image: url(images/cabecera.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+
+/*Section 2*/
+.container {
+    padding: 0px 25px 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+.titles {
+    padding-bottom: 10px;;
+}
+
+.text, .titles {
+    text-align: center;
+}
+
+/*Formulario*/
+.text {
+    font-size: 16px;
+
+}
+.form-box {
+    background-color: rgb(245,245,245);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.divider {
+    height: 2px;
+    margin-top: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-control {
+    width: 49%;
+    margin: 7px 0;
+    padding: 7px;
+    border: 1px solid rgb(213,213,213);
+    border-radius: 3px;
+    font-size: 16px;
+    color:#737373;
+}
+.checkbox {
+    margin:10px 0px 20px;
+}
+.button {
+    width: 100%;
+    background-color: #d81e05;
+    border: none;
+    height: 35px;
+    color:#fff;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: ease-in 0.3s;
+}
+.button:hover {
+    background-color: green;
+}
+
+/*Section 3*/
+.recognition {
+    background-color: rgb(245,245,245);
+    display: flex;
+    justify-content: center;
+    
+}
+.recognition .container {
+    width: 50%;
+    padding:25px;
+}
+.mobile {
+    display:none;
+}
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 28px;
+        
+    }
+    .car {
+        height: 150px;
+    }
+    .form-group {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-control {
+        width: 100%;
+        margin: 7px 0;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {display: block;
+    }
+
+  }
+
+  /*Mobile*/
+  @media only screen and (max-width: 540px) {
+    .logo {
+        width: 125px;
+    }
+    .background-red {
+        height: 40px;
+    }
+    .car {
+        height: 130px;
+    }
+    h1 {
+        font-size: 14px;
+        line-height: 0.5em;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 0.5em;
+        
+    }
+    .container {
+        padding: 0px 0px 25px;
+        width: 95%;
+    }
+    .form-box {
+        padding: 5px 20px;
+    }
+    
+    .recognition .container {
+        width: 95%;
+        padding:25px 0px;
+    }
+  }
