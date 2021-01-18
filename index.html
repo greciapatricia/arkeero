@@ -1,25 +1,59 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
     <title>Document</title>
 </head>
+
 <body>
-    
-        <form action="" method="POST" id="">
-            <div class="form-group">
-              <label for="username">User</label>
-              <input id="username" type="text" class="form-control" name="username" placeholder="Your Username" required>
-            </div>
-            <div class="form-group">
-              <label for="useremail">Email</label>
-              <input id="useremail" type="email" class="form-control" name="useremail" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-              <label for="password">Password</label>
-              <input id="password" type="password" class="form-control" name="password" placeholder="********" required>
-            </div>
-            <button type="submit" class="button">Create account</button>
-    
+
+    <header>
+        <img src="images/logo.png" alt="">
+    </header>
+    <section>
+        <img src="images/cabecera.png" alt="">
+    </section>
+    <section>
+        <article>
+            <h1>A donde quiera que vayas, MAPFRE va de tu lado</h1>
+            <h2>Asegura tu auto desde $5,999</h2>
+        </article>
+        <article>
+            <p>Solicita información sin compromiso</p>
+            <form action="" method="POST" id="form">
+                <div class="form-group">
+                    <input id="nombre" type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+                    <input id="apellidos" type="text" class="form-control" name="apellidos" placeholder="Apellidos"
+                        required>
+                </div>
+                <div class="form-group">
+
+                    <input id="useremail" type="email" class="form-control" name="useremail" placeholder="Email"
+                        required>
+                    <input id="telefono" type="tel" class="form-control" name="telefono" placeholder="Teléfono"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input id="marca" type="text" class="form-control" name="marca" placeholder="Marca" required>
+                    <input id="modelo" type="text" class="form-control" name="modelo" placeholder="Modelo" required>
+                </div>
+                <p><input type="checkbox" id="privacidad" name="privacidad" value="Privacidad">
+                    <label for="vehicle1"> Certifico que soy mayor de 18, he leído y acepto la <a href="#politica" target="_blank" rel="nofollow">Política de Privacidad</a></label></p>
+                
+                <input type="submit" value="Submit">
+        </article>
+    </section>
+    <section>
+
+    </section>
+    <footer>
+        <p>MAPFRE © 2019 Todos los derechos reservados</p>
+    </footer>
+
+
+
 </body>
+
 </html>
